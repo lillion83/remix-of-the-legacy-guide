@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "b4822346-75db-4911-b79e-9dcad29ce80f",
-  "project_id": "f8279d5b-d5a3-4892-a5bc-1f18ec4ec298",
-  "url": "/__l5e/assets-v1/b4822346-75db-4911-b79e-9dcad29ce80f/erfeniswijzer-logo.jpeg",
-  "r2_key": "a/v1/f8279d5b-d5a3-4892-a5bc-1f18ec4ec298/b4822346-75db-4911-b79e-9dcad29ce80f/erfeniswijzer-logo.jpeg",
-  "original_filename": "erfeniswijzer-logo.jpeg",
-  "size": 28988,
   "content_type": "image/jpeg",
-  "created_at": "2026-06-10T23:32:42Z"
+  "created_at": "2026-06-10T23:32:42Z",
+  "original_filename": "erfeniswijzer-logo.jpeg",
+  "project_id": "bd7ba3c0-a0b2-4ab8-a665-d5052338712b",
+  "r2_key": "a/v1/bd7ba3c0-a0b2-4ab8-a665-d5052338712b/b4822346-75db-4911-b79e-9dcad29ce80f/erfeniswijzer-logo.jpeg",
+  "size": 28988,
+  "url": "/__l5e/assets-v1/b4822346-75db-4911-b79e-9dcad29ce80f/erfeniswijzer-logo.jpeg",
+  "version": 1
 }
