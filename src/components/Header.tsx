@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { Menu, Globe } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { useLang } from "@/lib/i18n";
+import { useT } from "@/lib/i18n";
 import logo from "@/assets/erfeniswijzer-logo.jpeg";
 
-export function navItems(t: ReturnType<typeof useLang>["t"]) {
+export function navItems(t: ReturnType<typeof useT>) {
   return [
     { label: t.nav.home, to: "/" },
     { label: t.nav.hulpBijErfenis, to: "/hulp-bij-erfenis" },
@@ -23,36 +23,20 @@ function Brand({ onClick }: { onClick?: () => void }) {
       to="/"
       onClick={onClick}
       className="flex items-center gap-3"
-      aria-label="De Erfeniswijzer — naar home"
+      aria-label="De Erfeniswijzer — home"
     >
       <img
         src={logo}
-        alt="Logo De Erfeniswijzer"
+        alt="De Erfeniswijzer logo"
         className="h-11 w-auto rounded-lg shadow-soft"
       />
     </Link>
   );
 }
 
-function LangToggle() {
-  const { lang, setLang, t } = useLang();
-  const target = lang === "nl" ? "en" : "nl";
-  return (
-    <button
-      type="button"
-      onClick={() => setLang(target)}
-      aria-label={t.langToggleLabel}
-      className="inline-flex items-center gap-1.5 rounded-full border border-border px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-foreground/80 transition-colors hover:border-accent hover:text-primary"
-    >
-      <Globe className="h-3.5 w-3.5" aria-hidden="true" />
-      {t.langToggleCode}
-    </button>
-  );
-}
-
 export function Header() {
   const [open, setOpen] = useState(false);
-  const { t } = useLang();
+  const t = useT();
   const items = navItems(t);
 
   return (
@@ -60,7 +44,7 @@ export function Header() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Brand />
 
-        <nav className="hidden items-center gap-8 lg:flex" aria-label="Hoofdnavigatie">
+        <nav className="hidden items-center gap-8 lg:flex" aria-label="Main navigation">
           {items.map((item) => (
             <Link
               key={item.to}
@@ -87,14 +71,12 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <LangToggle />
           <Button asChild className="rounded-full bg-accent px-6 text-accent-foreground hover:bg-accent/90">
             <Link to="/contact">{t.header.cta}</Link>
           </Button>
         </div>
 
         <div className="flex items-center gap-2 lg:hidden">
-          <LangToggle />
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" aria-label={t.header.openMenu}>
@@ -105,7 +87,7 @@ export function Header() {
               <div className="mt-2 mb-8">
                 <Brand onClick={() => setOpen(false)} />
               </div>
-              <nav className="flex flex-col gap-1" aria-label="Mobiele navigatie">
+              <nav className="flex flex-col gap-1" aria-label="Mobile navigation">
                 {items.map((item) => (
                   <SheetClose asChild key={item.to}>
                     <Link
