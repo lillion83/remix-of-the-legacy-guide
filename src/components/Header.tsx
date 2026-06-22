@@ -23,11 +23,11 @@ function Brand({ onClick }: { onClick?: () => void }) {
       to="/"
       onClick={onClick}
       className="flex items-center gap-3"
-      aria-label="De Erfeniswijzer — home"
+      aria-label="The Inheritance Guide — home"
     >
       <img
         src={logo}
-        alt="De Erfeniswijzer logo"
+        alt="The Inheritance Guide logo"
         className="h-11 w-auto rounded-lg shadow-soft"
       />
     </Link>
