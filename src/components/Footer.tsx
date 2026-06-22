@@ -25,7 +25,7 @@ export function Footer() {
           <div>
             <img
               src={logo}
-              alt="Logo De Erfeniswijzer"
+              alt="Logo The Inheritance Guide"
               className="h-20 w-auto rounded-xl"
             />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-primary-foreground/75">
