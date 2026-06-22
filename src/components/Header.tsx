@@ -4,7 +4,7 @@ import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { useT } from "@/lib/i18n";
-import logo from "@/assets/erfeniswijzer-logo.jpeg";
+import logo from "@/assets/the-inheritance-guide-logo.jpg";
 
 export function navItems(t: ReturnType<typeof useT>) {
   return [
