@@ -10,13 +10,13 @@ import heroImg from "@/assets/kennisbank-hero.jpg";
 export const Route = createFileRoute("/kennisbank")({
   head: () => ({
     meta: [
-      { title: "Kennisbank Nalatenschap & Erfenis — De Erfeniswijzer" },
+      { title: "Kennisbank Nalatenschap & Erfenis — The Inheritance Guide" },
       {
         name: "description",
         content:
           "Praktische artikelen en heldere uitleg over nalatenschap en erfenis: executeurschap, erfbelasting, levenstestament, checklists en meer.",
       },
-      { property: "og:title", content: "Kennisbank Nalatenschap & Erfenis — De Erfeniswijzer" },
+      { property: "og:title", content: "Kennisbank Nalatenschap & Erfenis — The Inheritance Guide" },
       {
         property: "og:description",
         content:

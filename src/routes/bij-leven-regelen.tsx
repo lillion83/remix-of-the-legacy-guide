@@ -17,13 +17,13 @@ import heroImg from "@/assets/bijleven-hero.jpg";
 export const Route = createFileRoute("/bij-leven-regelen")({
   head: () => ({
     meta: [
-      { title: "Bij leven regelen — De Erfeniswijzer" },
+      { title: "Bij leven regelen — The Inheritance Guide" },
       {
         name: "description",
         content:
           "Regel uw nalatenschap zorgvuldig bij leven: testament, levenstestament en schenkingen. Voorkom problemen voor nabestaanden en bespaar erfbelasting.",
       },
-      { property: "og:title", content: "Bij leven regelen — De Erfeniswijzer" },
+      { property: "og:title", content: "Bij leven regelen — The Inheritance Guide" },
       {
         property: "og:description",
         content:

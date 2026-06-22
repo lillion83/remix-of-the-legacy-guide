@@ -29,7 +29,7 @@ import gidsHero from "@/assets/gids-hero.jpg";
 export const Route = createFileRoute("/gratis-gids")({
   head: () => ({
     meta: [
-      { title: "Gratis Erfeniswijzer Gids downloaden | De Erfeniswijzer" },
+      { title: "Gratis Erfeniswijzer Gids downloaden | The Inheritance Guide" },
       {
         name: "description",
         content:

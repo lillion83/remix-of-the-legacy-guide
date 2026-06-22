@@ -24,7 +24,7 @@ const translations = {
     disclaimer:
       "Disclaimer: the information on this website has been compiled with care and is intended solely as general information. No rights can be derived from its content. For tailored advice, we are happy to schedule a personal consultation.",
     copyright: "All rights reserved.",
-    copyrightName: "De Erfeniswijzer.",
+    copyrightName: "The Inheritance Guide.",
     privacy: "Privacy policy",
     terms: "Terms & conditions",
     slogan: "Your guide to estate & inheritance",
@@ -40,13 +40,13 @@ const translations = {
 
   home: {
     heroEyebrow: "Your guide to estate & inheritance",
-    heroTitle: "De Erfeniswijzer",
+    heroTitle: "The Inheritance Guide",
     heroIntro:
       "Personal guidance in preparing your estate and settling an inheritance. We take the worries off your hands, so you and your loved ones can move forward in peace.",
     heroCta: "Request a free consultation",
     heroSecondary: "Learn about our approach",
 
-    whyEyebrow: "Why De Erfeniswijzer?",
+    whyEyebrow: "Why The Inheritance Guide?",
     whyTitle: "Estate planning as a final act of love and care",
     whyIntro:
       "We believe that estate planning should not be a source of stress or uncertainty. With warmth, expertise, and attention we make sure everything is properly arranged.",
@@ -92,7 +92,7 @@ const translations = {
     ],
 
     testimonials: [
-      { quote: "Finally overview and peace of mind. De Erfeniswijzer took all worries off our hands and explained everything in clear language.", name: "Margreet de Vries", role: "Apeldoorn" },
+      { quote: "Finally overview and peace of mind. The Inheritance Guide took all worries off our hands and explained everything in clear language.", name: "Margreet de Vries", role: "Apeldoorn" },
       { quote: "With a blended family it was complicated. Thanks to their guidance, we now know that everything is arranged fairly and well.", name: "Hans Bakker", role: "Utrecht" },
       { quote: "Warm, personal attention at a difficult moment. Exactly the guide we needed.", name: "Annelies Smit", role: "Haarlem" },
     ],
@@ -135,7 +135,7 @@ const translations = {
     sectionText1:
       "Settling an estate is often more complicated and emotional than people expect. A great deal lands on your plate, while you need time and space to grieve.",
     sectionText2:
-      "De Erfeniswijzer takes the practical and legal worries off your hands, so you can focus on what truly matters.",
+      "The Inheritance Guide takes the practical and legal worries off your hands, so you can focus on what truly matters.",
     burdensTitle: "What we handle for you",
     burdens: [
       "Organising the funeral and all related administration",
@@ -238,24 +238,24 @@ const translations = {
 
   overOns: {
     heroEyebrow: "Who we are",
-    heroTitle: "De Erfeniswijzer – Your personal guide",
+    heroTitle: "The Inheritance Guide – Your personal guide",
     heroIntro:
       "We believe that an estate can be a final act of love and care. With legal expertise and human warmth we stand by your side at the moments that matter most.",
 
     storyEyebrow: "Our story",
     storyTitle: "Why we do this work",
     storyParagraphs: [
-      "De Erfeniswijzer grew from a simple observation: estate and inheritance matters often come with a great deal of coldness and bureaucracy, precisely at a moment when people need warmth and clarity.",
+      "The Inheritance Guide grew from a simple observation: estate and inheritance matters often come with a great deal of coldness and bureaucracy, precisely at a moment when people need warmth and clarity.",
       "We saw too often how uncertainty led to stress, and sometimes even to lasting disputes within families. That had to be possible differently. That is why we combine expert guidance with genuine, personal attention.",
       "Whether you want to put your affairs in order while you are alive, or need to settle an estate — we are your guide. We take the worries off your hands and make sure that estate planning can be what it is meant to be: a final act of love.",
     ],
 
     teamEyebrow: "Our team",
-    teamTitle: "The people behind De Erfeniswijzer",
+    teamTitle: "The people behind The Inheritance Guide",
     teamIntro: "A dedicated team that stands ready for you with heart and knowledge.",
     teamPortrait: "Portrait of",
     team: [
-      { name: "Marieke van Dongen", role: "Founder & estate adviser", bio: "Marieke founded De Erfeniswijzer from the conviction that estate planning should happen with warmth and care." },
+      { name: "Marieke van Dongen", role: "Founder & estate adviser", bio: "Marieke founded The Inheritance Guide from the conviction that estate planning should happen with warmth and care." },
       { name: "Pieter Hofman", role: "Specialist in inheritance law & executorship", bio: "With more than 25 years of experience, Pieter guides families through even the most complex estates." },
       { name: "Sanne Willems", role: "Legal adviser & mediator", bio: "Sanne brings calm to difficult conversations and helps families reach fair solutions together." },
     ],
@@ -314,7 +314,7 @@ const translations = {
     mapArea: "Our service area",
     mapNote: "We work throughout the Netherlands and are happy to visit you at home.",
     mapLink: "See how we can help you",
-    mapTitle: "Map of the service area of De Erfeniswijzer in the Netherlands",
+    mapTitle: "Map of the service area of The Inheritance Guide in the Netherlands",
 
     toastTitle: "Thank you! Your message has been sent.",
     toastDesc: "We will contact you personally within one working day.",

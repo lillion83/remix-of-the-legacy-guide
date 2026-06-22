@@ -25,13 +25,13 @@ import contactHero from "@/assets/contact-hero.jpg";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Persoonlijk advies bij erfenis | De Erfeniswijzer" },
+      { title: "Contact — Persoonlijk advies bij erfenis | The Inheritance Guide" },
       {
         name: "description",
         content:
-          "Neem vrijblijvend contact op met De Erfeniswijzer. Plan een gratis adviesgesprek over nalatenschap of erfenis — telefonisch of bij u thuis.",
+          "Neem vrijblijvend contact op met The Inheritance Guide. Plan een gratis adviesgesprek over nalatenschap of erfenis — telefonisch of bij u thuis.",
       },
-      { property: "og:title", content: "Contact — De Erfeniswijzer" },
+      { property: "og:title", content: "Contact — The Inheritance Guide" },
       {
         property: "og:description",
         content:
@@ -104,7 +104,7 @@ function Contact() {
       <section className="relative isolate overflow-hidden">
         <img
           src={contactHero}
-          alt="Warm gesprek tussen een adviseur van De Erfeniswijzer en een ouder echtpaar aan de keukentafel"
+          alt="Warm gesprek tussen een adviseur van The Inheritance Guide en een ouder echtpaar aan de keukentafel"
           width={1920}
           height={1080}
           className="absolute inset-0 h-full w-full object-cover"

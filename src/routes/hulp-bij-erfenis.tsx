@@ -8,13 +8,13 @@ import heroImg from "@/assets/hulp-hero.jpg";
 export const Route = createFileRoute("/hulp-bij-erfenis")({
   head: () => ({
     meta: [
-      { title: "Hulp bij erfenis — De Erfeniswijzer" },
+      { title: "Hulp bij erfenis — The Inheritance Guide" },
       {
         name: "description",
         content:
           "Wij nemen de zorgen uit handen bij het afwikkelen van een erfenis: executeurschap, erfbelasting, verdeling en mediation. Persoonlijke begeleiding voor nabestaanden.",
       },
-      { property: "og:title", content: "Hulp bij erfenis — De Erfeniswijzer" },
+      { property: "og:title", content: "Hulp bij erfenis — The Inheritance Guide" },
       {
         property: "og:description",
         content:
