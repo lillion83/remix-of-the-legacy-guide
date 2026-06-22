@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { useT } from "@/lib/i18n";
-import logo from "@/assets/erfeniswijzer-logo.jpeg";
+import logo from "@/assets/the-inheritance-guide-logo.jpg";
 
 export function Footer() {
   const t = useT();
