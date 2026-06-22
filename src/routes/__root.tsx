@@ -81,14 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "De Erfeniswijzer — Uw gids bij nalatenschap en erfenis" },
+      { title: "The Inheritance Guide — Uw gids bij nalatenschap en erfenis" },
       {
         name: "description",
         content:
           "Persoonlijke en deskundige begeleiding bij nalatenschap en erfenis. Van regelen bij leven tot afwikkeling na overlijden.",
       },
-      { name: "author", content: "De Erfeniswijzer" },
-      { property: "og:title", content: "De Erfeniswijzer — Uw gids bij nalatenschap en erfenis" },
+      { name: "author", content: "The Inheritance Guide" },
+      { property: "og:title", content: "The Inheritance Guide — Uw gids bij nalatenschap en erfenis" },
       {
         property: "og:description",
         content:
@@ -96,7 +96,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:title", content: "De Erfeniswijzer — Uw gids bij nalatenschap en erfenis" },
+      { name: "twitter:title", content: "The Inheritance Guide — Uw gids bij nalatenschap en erfenis" },
       { name: "description", content: "The Legacy Guide is a professional website offering guidance on estate planning and inheritance matters." },
       { property: "og:description", content: "The Legacy Guide is a professional website offering guidance on estate planning and inheritance matters." },
       { name: "twitter:description", content: "The Legacy Guide is a professional website offering guidance on estate planning and inheritance matters." },

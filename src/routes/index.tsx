@@ -32,13 +32,13 @@ import testimonial3 from "@/assets/testimonial-3.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "De Erfeniswijzer — Uw gids bij nalatenschap en erfenis" },
+      { title: "The Inheritance Guide — Uw gids bij nalatenschap en erfenis" },
       {
         name: "description",
         content:
           "Persoonlijke en deskundige begeleiding bij nalatenschap en erfenis. Van regelen bij leven tot afwikkeling na overlijden, met warmte en rust.",
       },
-      { property: "og:title", content: "De Erfeniswijzer — Uw gids bij nalatenschap en erfenis" },
+      { property: "og:title", content: "The Inheritance Guide — Uw gids bij nalatenschap en erfenis" },
       {
         property: "og:description",
         content:

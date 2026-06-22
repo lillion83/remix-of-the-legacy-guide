@@ -9,14 +9,14 @@ import bedanktHero from "@/assets/bedankt-hero.jpg";
 export const Route = createFileRoute("/bedankt")({
   head: () => ({
     meta: [
-      { title: "Bedankt — Wij nemen contact met u op | De Erfeniswijzer" },
+      { title: "Bedankt — Wij nemen contact met u op | The Inheritance Guide" },
       {
         name: "description",
         content:
-          "Bedankt voor uw bericht aan De Erfeniswijzer. Wij nemen binnen één werkdag persoonlijk contact met u op.",
+          "Bedankt voor uw bericht aan The Inheritance Guide. Wij nemen binnen één werkdag persoonlijk contact met u op.",
       },
       { name: "robots", content: "noindex" },
-      { property: "og:title", content: "Bedankt — De Erfeniswijzer" },
+      { property: "og:title", content: "Bedankt — The Inheritance Guide" },
       {
         property: "og:description",
         content: "Bedankt voor uw bericht. Wij nemen binnen één werkdag contact met u op.",

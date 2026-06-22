@@ -11,13 +11,13 @@ import team3 from "@/assets/team-3.jpg";
 export const Route = createFileRoute("/over-ons")({
   head: () => ({
     meta: [
-      { title: "Over ons — De Erfeniswijzer" },
+      { title: "Over ons — The Inheritance Guide" },
       {
         name: "description",
         content:
-          "De Erfeniswijzer combineert juridische expertise met menselijke warmte. Maak kennis met ons team en onze waarden: persoonlijke aandacht, deskundigheid en rust.",
+          "The Inheritance Guide combineert juridische expertise met menselijke warmte. Maak kennis met ons team en onze waarden: persoonlijke aandacht, deskundigheid en rust.",
       },
-      { property: "og:title", content: "Over ons — De Erfeniswijzer" },
+      { property: "og:title", content: "Over ons — The Inheritance Guide" },
       {
         property: "og:description",
         content:
@@ -41,7 +41,7 @@ function OverOns() {
     <>
       <ContentHero
         image={heroImg}
-        imageAlt="Het warme team van De Erfeniswijzer in een lichte, huiselijke ruimte"
+        imageAlt="Het warme team van The Inheritance Guide in een lichte, huiselijke ruimte"
         eyebrow={h.heroEyebrow}
         title={h.heroTitle}
         intro={h.heroIntro}
